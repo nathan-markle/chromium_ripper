@@ -1,0 +1,9 @@
+[package]
+name = "chromium_ripper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+colored = "3.1.1"
+libsqlite3-sys = { version = "0.36.0", features = ["bundled"] }
+rusqlite = "0.38.0"
